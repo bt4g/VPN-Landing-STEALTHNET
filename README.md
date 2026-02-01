@@ -1,30 +1,18 @@
-# AFINA VPN — Сайт
+# VPN LANDING STEALTHNET
+<img width="2046" height="1033" alt="image" src="https://github.com/user-attachments/assets/8158c2b6-348d-4492-9389-1807e9614054" />
 
 Сайт для VPN-сервиса AFINA VPN на протоколе VLESS.
 
-## Запуск
-
-```bash
-npm install
-npm run dev
-```
-
-Сайт будет доступен по адресу http://localhost:3000
-
-## Статическая сборка
-
-Для получения статики (папка `out/`) — хостинг без Node.js (GitHub Pages, Netlify и т.д.):
-
-```bash
-npm run build:static
-```
-
-Результат — папка `out/` с HTML, CSS, JS. Размещай её на любом статическом хостинге.
-
-**Важно:** Админка `/admin` в статике не работает (нет API). Редактировать данные нужно перед сборкой, затем снова запустить `npm run build:static`.
 
 ## Установка на сервер (VPN Landing STEALTHNET)
-
+Скачать проект себе на сервер 
+```bash
+git clone https://github.com/GOFONCK/VPN-Landing-STEALTHNET.git
+```
+Перейти в папку проекта
+```bash
+cd /opt/VPN-Landing-STEALTHNET/
+```
 Скрипт `install.sh` — развёртывание с одной команды и автоматическим SSL:
 
 ```bash
